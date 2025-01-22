@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: 2048-game
-        path: dist/game2048.exe
+        path: dist/main.exe
