@@ -31,7 +31,7 @@ jobs:
         pyinstaller --onefile --windowed --hidden-import=PyQt5.sip main.py
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: 2048-game
         path: dist/game2048.exe
